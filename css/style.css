@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  background-color: #0072BB;
+  color: #FFD034;
+  margin: 50px auto;
+  padding: 0px;
+  font-family: 'Pacifico';
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+}
+/******************************
+        Intro Screen
+******************************/
+.intro h1 {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+.intro h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.intro button {
+  margin: auto;
+  background-color: #FF4C3B;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1000%;
+  width: 200px;
+  height: 200px;
+  margin: 0px 15px;
+  border-style: none;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+  transition-duration: 0.4s;
+  outline: none;
+}
+.intro button:hover {
+  background-color: #FFD034;
+  color: #FF4C3B;
+}
+#x {
+  padding-right: 30px;
+  margin-bottom: 5px;
+}
+/******************************
+        Main Board
+******************************/
+#board {
+  height: 375px;
+  width: 375px;
+  font-size: 60px;
+}
+#play {
+  font-size: 75px;
+  margin-bottom: 35px;
+}
+#board button {
+  height: 115px;
+  width: 115px;
+  background-color: #FF4C3B;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+  border-style: none;
+  border-radius: 8px;
+  margin: 4px;
+  outline: none;
+}
+/*****************************
+    Reset
+*****************************/
+.ending {
+    display: none; 
+    position: fixed;
+    z-index: 2; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.7); 
+}
+
+.end-content {
+    background-color: #FFD034;
+    color: #0072BB;
+    margin: 12% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60vh;
+  border-style: none;
+  border-radius: 8px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+}
+#winner {
+  font-size: 75px;
+  padding-bottom: 10px;
+}
+.btn {
+  background-color: #FF4C3B;
+  font-size: 25px;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: #0072BB;
+  color: #FF4C3B;
+}

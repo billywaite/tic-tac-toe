@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!------------------------------------------
+           Intro Screen: Choose Piece
+------------------------------------------>
+<div class='intro'>
+  <div class="row text-center">
+    <h1>Tic Tac Toe</h1>
+    <h2>Choose your weapon!</h2>
+    <button class='.col-xs-4' id='x'>X</button>
+    <button class='.col-xs-4' id='o'>O</button>
+  </div>
+</div>
+<!------------------------------------------
+              Board Reset
+------------------------------------------>
+<div class="ending">
+  <div class="row text-center end-content">
+    <h1 id='winner'></h1>
+    <button class='btn' id='reset'>Play again?</button>
+  </div>
+</div>
+<!------------------------------------------
+              Main Board
+------------------------------------------>
+<div class='container-fluid' id="board">
+  <div class='row text-center'>
+        <h2 id='play'>Play!</h2>
+  </div>
+  <div class='row'>
+  <button id='b00' class="top-left col-xs-4"></button>
+  <button id='b01' class="top-middle col-xs-4"></button>
+  <button id='b02' class="top-right col-xs-4"></button>
+  </div>
+  <div class='row'>
+  <button id='b10' class="left col-xs-4"></button>
+  <button id='b11' class="middle col-xs-4"></button>
+  <button id='b12' class="right col-xs-4"></button>
+  </div>
+  <div class='row'>
+  <button id='b20' class="bottom-left col-xs-4"></button>
+  <button id='b21' class="bottom-middle col-xs-4"></button>
+  <button id='b22' class="bottom-right col-xs-4"></button>
+  </div>
+  </div>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
